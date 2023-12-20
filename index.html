@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="image/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js" integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js" integrity="sha512-LQQDtPAueBcmGXKdOBcMkrhrtqM7xR2bVrnMtYZ8ImAZhFlIb5xrMqQ6uZviyeSB+4mYj89ta8niiCIQM1Gj0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
+
+    <title>CorpComment -- Give Feedback, Publicly</title>
+</head>
+
+<body class="body ">
+
+    <header class="header">
+        <div class="container">
+            <h1>Oksana Melnyk</h1>
+            <p class="header__descr">Frontend Developer, Wiesbaden / remote </p>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <div class="container intro__container">
+                <h2 class="intro__title">About</h2>
+                <p class="intro__descr">I am a Frontend Developer with one year of experience and a background in Sales Management. I enjoy building websites and apps, and I want to keep applying my skills in practice and growing in the field of development.</p>
+                <p class="intro__descr">My proficiency includes HTML, CSS, JavaScript, React.js</p>
+                <ul class="intro__social-list">
+                    <li class="intro__social-item">
+                        <a href="#" title="linkedin" class="intro__social-link">LinkedIn</a>
+                    </li>
+                    <li class="intro__social-item">
+                        <a href="#" title="Github" class="intro__social-link">Github</a>
+                    </li>
+                    <li class="intro__social-item">
+                        <a href="./directory/yourfile.pdf" download="newfilename" class="intro__social-link">Download CV.pdf</a>
+                    </li>
+                    <li class="intro__social-item">
+                        <a href="#" title="Github" class="intro__social-link">Send Email</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="container">
+                <h2 class="projects__title">My Projects</h2>
+                <p class="projects__descr">Here are projects that tell the story of my journey in interface development and show how my skills have evolved.</p>
+            </div>
+             <div class="projects__wrapper">
+                    <div class="project__item">
+                        <div class="project__item-wrapper">
+                            <h3 class="project__item-title">Finmill</h3>       
+                            <p class="project__item-descr">A simple landing page created with a mobile-first approach. Here, I experimented with CSS animations and added sliders using Swiper.</p>
+                            <ul class="project__item-list">
+                                <li class="">
+                                    <a href="nimble-flan-2a3049.netlify.app" title="linkedin" class="project__item-link" target="_blank">Demo</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" title="Github" class="project__item-link">Github</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="project__tools">
+                            <li class="project__tool">HTML</li>
+                            <li class="project__tool">CSS</li>
+                            <li class="project__tool">Swiper</li>
+                        </ul> 
+                        <div class="project__img-wrapper frame">
+                            <img src="/image/finmill.png" alt="" class="project__img">
+                        
+                        </div>                
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-wrapper">
+                            <h3 class="project__item-title">Event Up</h3>       
+                            <p class="project__item-descr">A multi-page site built using HTML, SCSS and JavaScript.</p>
+                            <ul class="project__item-list">
+                                <li class="">
+                                    <a href="https://events-up.netlify.app/" class="project__item-link">Go to the site</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" title="Github" class="project__item-link">Github</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="project__tools">
+                            <li class="project__tool button">HTML</li>
+                            <li class="project__tool button">SCSS</li>
+                            <li class="project__tool button">JavaScript</li>
+                        </ul> 
+                        <div class="project__img-wrapper">
+                            <img src="/image/event-up.png" alt="" class="project__img">
+                        </div>                
+                    </div>
+                    <div class="project__item " data-trigger>
+                        <div class="project__item-wrapper">
+                            <h3 class="project__item-title">Bliss Bistro</h3>       
+                            <p class="project__item-descr">The site had JavaScript work: with date, data output, calculator and slider</p>
+                            <ul class="project__item-list">
+                                <li class="">
+                                    <a href="https://bistro-food.netlify.app/" class="project__item-link">Demo</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" title="Github" class="project__item-link">Github</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="project__tools">
+                            <li class="project__tool">HTML</li>
+                            <li class="project__tool">SCSS</li>
+                            <li class="project__tool">JavaScript</li>
+                        </ul> 
+                        <div class="project__img-wrapper">
+                            <img src="/image/bistro-bliss.png" alt="" class="project__img">
+                        </div>                
+                    </div>
+                    <div class="project__item " data-trigger>
+                        <div class="project__item-wrapper">
+                            <h3 class="project__item-title">CorpComment</h3>       
+                            <p class="project__item-descr">Output of comments from the Api using the fetch method. Ability to add your own comment. Sorting comments by hashtag.</p>
+                            <ul class="project__item-list">
+                                <li class="">
+                                    <a href="https://corp-comments.netlify.app/" class="project__item-link">Demo</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" title="Github" class="project__item-link">Github</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="project__tools">
+                            <li class="project__tool">HTML</li>
+                            <li class="project__tool">SCSS</li>
+                            <li class="project__tool">JavaScript</li>
+                        </ul> 
+                        <div class="project__img-wrapper">
+                            <img src="/image/corp-comment.png" alt="" class="project__img">
+                        </div>                
+                    </div>
+                    <div class="project__item " data-trigger>
+                        <div class="project__item-wrapper">
+                            <h3 class="project__item-title">CorpComment</h3>       
+                            <p class="project__item-descr">Working with React at a basic level.</p>
+                            <ul class="project__item-list">
+                                <li class="">
+                                    <a href="https://corp-comments.netlify.app/" class="project__item-link">Demo</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" title="Github" class="project__item-link">Github</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="project__tools">
+                            <li class="project__tool">HTML</li>
+                            <li class="project__tool">SCSS</li>
+                            <li class="project__tool">JavaScript</li>
+                        </ul> 
+                        <div class="project__img-wrapper">
+                            <img src="/image/corp-comment.png" alt="" class="project__img">
+                        </div>                
+                    </div>
+                    <div class="project__item " data-trigger>
+                        <div class="project__item-wrapper">
+                            <h3 class="project__item-title">WordAnalitycs</h3>       
+                            <p class="project__item-descr">Working with React at a basic level.</p>
+                            <ul class="project__item-list">
+                                <li class="">
+                                    <a href="https://word-analytics-website.netlify.app/" class="project__item-link">Demo</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" title="Github" class="project__item-link">Github</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="project__tools">
+                            <li class="project__tool">HTML</li>
+                            <li class="project__tool">SCSS</li>
+                            <li class="project__tool">JavaScript</li>
+                        </ul> 
+                        <div class="project__img-wrapper">
+                            <img src="/image/corp-comment.png" alt="" class="project__img">
+                        </div>                
+                    </div>
+             </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <small>©2O24 Oksana Melnyk. All rights reserved.</small>
+        </div>
+    </footer>
+    
+
+    
+</body>
+
+</html>

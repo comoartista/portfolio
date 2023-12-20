@@ -1,0 +1,177 @@
+/* RESET */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: initial;
+}
+
+button {
+    font: inherit;
+    border: initial;
+    outline: initial; /* create alternative for focus state */
+    background-color: initial;
+}
+
+html, body {
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #182928;
+  color: #d9d7e0;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  transition: background 0.5s ease;
+
+}
+
+body {
+  background: #1b1721;
+}
+
+h1, h2, h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.container {
+  /* max-width: 1120px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+  /* margin-left: 0; */
+}
+
+.header {
+  margin: 120px 0 60px;
+}
+
+.header--special {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.intro__descr {
+  max-width: 690px;
+}
+
+.intro__social-list {
+  display: flex;
+  gap: 20px;
+  scroll-margin-top: 40px;
+  font-size: 16px;
+}
+
+.intro__social-link {
+  border-bottom: 1px solid #e3e2e4;
+}
+
+/* PROJECTS */
+.projects {
+  margin-top: 100px;
+}
+
+.projects__descr {
+  max-width: 690px;
+}
+
+.projects__wrapper{
+  padding-top: 10px;
+}
+
+.project__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  border-top: 1px solid #373636;
+  padding: 50px 0px 50px 40px;
+  transform: scale(1);
+  transition: transform .4s;
+}
+
+.project__item:last-child {
+  border-bottom: 1px solid #373636;
+}
+
+.project__item:hover {
+  /* background-color: #0f0d16; */
+  /* transform: scale(1.02);
+
+  .project__item-list {
+    display: flex;
+  } */
+
+}
+
+.project__item-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  /* display: none; */
+  transition: display .4s;
+
+}
+
+.project__item-link {
+  border-bottom: 1px solid #e3e2e4;
+}
+
+
+.project__tools {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  min-width: 200px;
+}
+
+.project__tool {
+  padding: 8px 12px;
+  font-size: 14px;
+  
+  border: 1px solid #585469;
+  border-radius: 100px;
+  width: fit-content;
+  height: fit-content;
+  align-items: flex-end;
+  margin-bottom: auto;
+}
+
+.project__img-wrapper {
+  max-width: 260px;
+  height: 100%;
+}
+
+.project__img {
+  width: 100%;
+}
+
+.footer {
+  margin: 60px 0 30px;
+  color: #7b797d;
+  font-size: 16px;
+}
+
