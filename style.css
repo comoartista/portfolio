@@ -2,29 +2,30 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    color: inherit;
-    text-decoration: initial;
+  color: inherit;
+  text-decoration: initial;
 }
 
 button {
-    font: inherit;
-    border: initial;
-    outline: initial; /* create alternative for focus state */
-    background-color: initial;
+  font: inherit;
+  border: initial;
+  outline: initial; /* create alternative for focus state */
+  background-color: initial;
 }
 
-html, body {
+html,
+body {
   overscroll-behavior: none;
 }
 
@@ -36,14 +37,11 @@ body {
   line-height: 1.5;
   font-weight: 400;
   /* transition: background 0.5s ease; */
-
 }
 
-body {
-  background: #1b1721;
-}
-
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-size: 40px;
   font-weight: 500;
   line-height: 1.5;
@@ -90,23 +88,29 @@ p {
 }
 
 /* -- PROJECTS -- */
+.projects {
+  margin: 60px auto 60px;
+}
 
+.projects__descr {
+  max-width: 690px;
+}
 
 .project__item {
   padding: 30px 0;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #b0b0b0;
+  border-top: 1px solid rgba(176, 176, 176, 0.2);
 }
 
 .project__item:last-child {
-  border-bottom: 1px solid #b0b0b0;
+  border-bottom: 1px solid rgba(176, 176, 176, 0.2);
 }
 
 .project__content-wrapper {
   display: flex;
   gap: 0;
-  transition: all 0.6s ease-in-out 0.3s; 
+  transition: all 0.6s ease-in-out 0.3s;
 }
 
 .project__item-content {
@@ -119,14 +123,13 @@ p {
   overflow: hidden;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.6s ease-in-out 0.3s; 
+  transition: all 0.6s ease-in-out 0.3s;
 }
 
 .project__item:hover .project__img-wrapper {
   opacity: 1;
   visibility: visible;
 }
-
 
 .project__item:hover .project__content-wrapper {
   gap: 30px;
@@ -138,10 +141,8 @@ p {
   height: 100%;
   object-fit: cover;
   transform: translateX(-100%);
-  transition: all 0.6s ease-in-out 0.3s; 
-  background-color: rgba(255, 0, 0, 1); /* Колір у форматі RGB з прозорістю (від 0 до 1) */
+  transition: all 0.6s ease-in-out 0.3s;
 }
-
 
 .project__item:hover .project__item-img {
   transform: translateX(0%);
@@ -150,10 +151,8 @@ p {
 
 .project__item-title {
   font-size: 40px;
-  font-weight: 500;
   line-height: 1.5;
-  margin-bottom: 0;  
-  /* text-transform: uppercase; */
+  margin-bottom: 0;
 }
 .project__item-descr {
   font-size: 20px;
@@ -165,9 +164,9 @@ p {
 .project__item-arrow {
   transform: rotate(-45deg);
   transition: all 0.6s;
-} 
+}
 
-.project__item:hover .project__item-arrow{
+.project__item:hover .project__item-arrow {
   transform: rotate(0);
 }
 
@@ -175,31 +174,29 @@ p {
   display: flex;
   gap: 20px;
   font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
   margin-bottom: 10px;
 }
 
 .project__item-link {
-  border-bottom: 1px solid rgba(227, 226, 228, .6);
-  transition: all 0.4s; 
+  border-bottom: 1px solid rgba(227, 226, 228, 0.6);
+  transition: all 0.4s;
 }
 
 .project__item-link:hover {
-  opacity: .6;
+  opacity: 0.6;
   cursor: pointer;
 }
-.project__item-link:visited {
-  opacity: .6;
-}
 
+.project__item-link:visited {
+  opacity: 0.6;
+}
 
 .project__tools {
   padding-bottom: 10px;
   display: flex;
   align-items: center;
   gap: 10px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .project__tool {
@@ -207,8 +204,12 @@ p {
   padding: 6px 10px;
   border-radius: 100px;
   font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: .4px;
-  font-weight: 400;
+  letter-spacing: 0.4px;
   text-transform: uppercase;
+}
+
+.footer {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: rgba(176, 176, 176, 0.2);
 }
